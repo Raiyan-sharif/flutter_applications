@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "440095342115",
+    "firebase_url": "https://aci-allbusiness.firebaseio.com",
+    "project_id": "aci-allbusiness",
+    "storage_bucket": "aci-allbusiness.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440095342115:android:807221bbec4766851dfb96",
+        "android_client_info": {
+          "package_name": "com.aci_bd.order_fert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440095342115-hukjel5o313s8s5187basvj637isrbcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBTAY8EhmJ5crPzQ4tBa37e8cFRqc8B9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440095342115-hukjel5o313s8s5187basvj637isrbcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440095342115:android:8465fd426de653b21dfb96",
+        "android_client_info": {
+          "package_name": "com.acibd.geofencing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440095342115-hukjel5o313s8s5187basvj637isrbcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBTAY8EhmJ5crPzQ4tBa37e8cFRqc8B9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440095342115-hukjel5o313s8s5187basvj637isrbcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440095342115:android:e74648dcafe0ec491dfb96",
+        "android_client_info": {
+          "package_name": "com.acibd.myexpense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440095342115-hukjel5o313s8s5187basvj637isrbcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBTAY8EhmJ5crPzQ4tBa37e8cFRqc8B9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440095342115-hukjel5o313s8s5187basvj637isrbcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440095342115:android:343732df24b984ae1dfb96",
+        "android_client_info": {
+          "package_name": "com.work.onlineleave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440095342115-hukjel5o313s8s5187basvj637isrbcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBTAY8EhmJ5crPzQ4tBa37e8cFRqc8B9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440095342115-hukjel5o313s8s5187basvj637isrbcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

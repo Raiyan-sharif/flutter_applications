@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>online_leave_force_update_required</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>online_leave_store_url</key>
+        <value>http://apps.eacibd.com/apk/onlineleave.apk</value>
+    </entry>
+
+    <entry>
+        <key>online_leave_current_version</key>
+        <value>1.0</value>
+    </entry>
+</defaultsMap><!-- END xml_defaults -->

@@ -1,0 +1,156 @@
+{
+  "project_info": {
+    "project_number": "708710117499",
+    "firebase_url": "https://aci-motors.firebaseio.com",
+    "project_id": "aci-motors",
+    "storage_bucket": "aci-motors.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708710117499:android:ebbd8b1585b5608faab2de",
+        "android_client_info": {
+          "package_name": "com.aci.constructionequipment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708710117499-k3sd9sndvma6viirjv1ckuf8c2oac8hh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB4CEr8IN-w2rBQbpOmgyWXeYnSreYjAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708710117499-k3sd9sndvma6viirjv1ckuf8c2oac8hh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708710117499:android:9060d7e025c95fb3aab2de",
+        "android_client_info": {
+          "package_name": "com.acibd.customerassesment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708710117499-k3sd9sndvma6viirjv1ckuf8c2oac8hh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB4CEr8IN-w2rBQbpOmgyWXeYnSreYjAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708710117499-k3sd9sndvma6viirjv1ckuf8c2oac8hh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708710117499:android:e7caabbe4fd1f3a5aab2de",
+        "android_client_info": {
+          "package_name": "com.acibd.motors.msr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708710117499-k3sd9sndvma6viirjv1ckuf8c2oac8hh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB4CEr8IN-w2rBQbpOmgyWXeYnSreYjAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708710117499-k3sd9sndvma6viirjv1ckuf8c2oac8hh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708710117499:android:a92a3cbeb44807f3aab2de",
+        "android_client_info": {
+          "package_name": "com.acibd.motorsharvester"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708710117499-k3sd9sndvma6viirjv1ckuf8c2oac8hh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB4CEr8IN-w2rBQbpOmgyWXeYnSreYjAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708710117499-k3sd9sndvma6viirjv1ckuf8c2oac8hh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708710117499:android:785e22e5e8605786aab2de",
+        "android_client_info": {
+          "package_name": "com.acibd.yamahamotorsregistration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708710117499-k3sd9sndvma6viirjv1ckuf8c2oac8hh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB4CEr8IN-w2rBQbpOmgyWXeYnSreYjAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708710117499-k3sd9sndvma6viirjv1ckuf8c2oac8hh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

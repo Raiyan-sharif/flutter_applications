@@ -1,0 +1,130 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorPrimaryVariant">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/colorPrimary</item>
+        <item name="colorSecondaryVariant">@color/colorPrimary</item>
+        <item name="colorOnSecondary">@color/colorPrimary</item>
+        <item name="colorError">#F44336</item>
+        <item name="colorOnError">#F44336</item>
+
+
+        <!-- Assign dialog style here. -->
+        <item name="alertDialogTheme">@style/MyAlertDialogStyle</item>
+        <item name="alertDialogStyle">@style/MyAlertDialogStyle</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="AlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="AlertDialogTransparent" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+
+    <style name="MyButton" parent="Widget.AppCompat.Button.Borderless.Colored">
+
+        <item name="android:layout_height">@dimen/margin_40</item>
+        <item name="android:paddingLeft">@dimen/margin_24</item>
+        <item name="android:paddingRight">@dimen/margin_24</item>
+        <item name="android:textSize">@dimen/fontSize16</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:buttonStyle">@style/TextLight</item>
+        <item name="android:textAppearance">@style/TextNormal</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="BtnBold" parent="MyButton">
+        <item name="android:layout_height">@dimen/margin_50</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="buttonStyle">@style/TextBold</item>
+        <item name="android:textSize">@dimen/fontSize16</item>
+    </style>
+
+
+    <style name="TextLight">
+        <item name="android:fontFamily">@font/light</item>
+    </style>
+
+    <style name="TextNormal">
+        <item name="android:fontFamily">@font/normal</item>
+    </style>
+
+    <style name="TextBold">
+        <item name="android:fontFamily">@font/bold</item>
+    </style>
+
+    <style name="TextItalic">
+        <item name="android:fontFamily">@font/italic</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@android:color/holo_green_dark</item>
+    </style>
+
+    <style name="DialogRangeTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="materialCalendarStyle">@style/Widget.MaterialComponents.MaterialCalendar</item>
+        <item name="materialCalendarFullscreenTheme">@style/ThemeOverlay.MaterialComponents.MaterialCalendar.Fullscreen</item>
+        <item name="materialCalendarTheme">@style/ThemeOverlay.MaterialComponents.MaterialCalendar</item>
+        <item name="colorPrimary">@color/colorGreenMaterial</item>
+        <item name="colorAccent">@color/colorWhite</item>
+        <item name="colorPrimaryVariant">@color/colorGreenMaterial</item>
+        <item name="buttonBarPositiveButtonStyle">@style/DialogRangeThemeButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/DialogRangeThemeButtonStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/DialogRangeThemeButtonStyleNeutral</item>
+    </style>
+
+    <style name="DialogRangeThemeButtonStyle" parent="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/fontSize16</item>
+    </style>
+
+    <style name="DialogRangeThemeButtonStyleNeutral" parent="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorGrey_500</item>
+        <item name="android:textSize">@dimen/fontSize16</item>
+    </style>
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/colorWhite</item>
+        <item name="buttonBarPositiveButtonStyle">@style/MyAlertDialogButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/MyAlertDialogButtonStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/MyAlertDialogButtonStyle</item>
+    </style>
+
+    <style name="MyAlertDialogButtonStyle" parent="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/fontSize16</item>
+    </style>
+
+    <style name="MyDialogFadeAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+
+
+
+</resources>

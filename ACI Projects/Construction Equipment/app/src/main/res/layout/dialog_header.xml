@@ -1,0 +1,17 @@
+<LinearLayout
+    android:id="@+id/header_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/margin_5">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Select Technician"
+        android:textColor="@color/colorText_Blue"
+        android:textSize="@dimen/fontSize20"/>
+
+</LinearLayout>

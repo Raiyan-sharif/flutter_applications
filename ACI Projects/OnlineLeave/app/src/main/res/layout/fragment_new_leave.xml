@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".view.new_leave.NewLeaveFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="14dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Personal Information"
+                android:textColor="@color/colorNavyBlue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvEmpID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Employee ID: "
+                android:textColor="@color/colorBlack"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvEmpName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Employee Name:"
+                android:textColor="@color/colorBlack"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvEmpDepartment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Department:"
+                android:textColor="@color/colorBlack"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvEmpDesignation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Designation:"
+                android:textColor="@color/colorBlack"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/tvApplicationDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Application Date:"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/tvEmpEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="E-mail:"
+                android:textColor="@color/colorBlack"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorLightBlue" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Leave Information"
+                android:textColor="@color/colorNavyBlue"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Reason (in less than 500 word)*:"
+                android:textColor="@color/colorBlack" />
+
+            <EditText
+                android:id="@+id/etLeaveReason"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="top|left"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border_all_round_shadow"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:maxLength="500"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Apply To*"
+                android:textColor="@color/colorBlack" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etApplyTo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight=".9"
+                    android:background="@drawable/border_all_round_shadow"
+                    android:hint="Select apply to..."
+                    android:imeOptions="actionDone"
+                    android:inputType="textMultiLine"
+                    android:maxLength="150"
+                    android:maxLines="3"
+                    android:minHeight="40dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    tools:text=" aslkdj aslkj asd adasd lj as askj daskj lkj asdkj lka sldkj kajsd as"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:id="@+id/imgApplyTo"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight=".1"
+                    android:background="@drawable/border_all_round_shadow"
+                    android:padding="10dp"
+                    android:src="@drawable/icon_down_arrow" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Leave Type*"
+                android:textColor="@color/colorBlack" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etLeaveType"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|left"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight=".9"
+                    android:background="@drawable/border_all_round_shadow"
+                    android:hint="Select leave type..."
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:maxLength="150"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp" />
+
+                <ImageView
+                    android:id="@+id/imgLeaveType"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight=".1"
+                    android:background="@drawable/border_all_round_shadow"
+                    android:padding="10dp"
+                    android:src="@drawable/icon_down_arrow" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Leave From*"
+                android:textColor="@color/colorBlack" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/etLeaveFrom"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight=".9"
+                    android:background="@drawable/border_all_round_shadow"
+                    android:gravity="center_vertical"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp" />
+
+                <ImageView
+                    android:id="@+id/imgLeaveFrom"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight=".1"
+                    android:background="@drawable/border_all_round_shadow"
+                    android:padding="8dp"
+                    android:src="@drawable/icon_calender" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Leave To*"
+                android:textColor="@color/colorBlack" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/etLeaveTo"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight=".9"
+                    android:background="@drawable/border_all_round_shadow"
+                    android:gravity="center_vertical"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp" />
+
+                <ImageView
+                    android:id="@+id/imgLeaveTo"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight=".1"
+                    android:background="@drawable/border_all_round_shadow"
+                    android:padding="8dp"
+                    android:src="@drawable/icon_calender" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Days Applied"
+                android:textColor="@color/colorBlack" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etDateApplied"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|left"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/border_all_round_shadow"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLength="150"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp" />
+
+                <Button
+                    android:id="@+id/btnHalfDay"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_weight=".5"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Half Day Leave" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LFA"
+                    android:textColor="@color/colorBlack" />
+
+                <CheckBox
+                    android:id="@+id/cbLFA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:text="Is LFA?" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorLightBlue" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="N. B."
+                android:textColor="@color/colorNavyBlue"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1. For Privilege Leave, any date range counts more than 10 days will include Weekly Holidays / Public Holidays."
+                android:textColor="@color/colorDarkBlue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="2. Any Sick Leave duration covers Weekly Holidays / Public Holidays will be included i.e. Thursday to Sunday (4 days), Thursday to Saturday (1 day) for Head Office."
+                android:textColor="@color/colorDarkBlue" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@color/colorPrimary"
+            android:text="SUBMIT"
+            android:textColor="#fff" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/colorLightBlue" />
+
+    </LinearLayout>
+
+
+</ScrollView>

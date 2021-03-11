@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.work.onlineleave.view.dashboard.DashboardFragment"
+        android:label="Online Leave"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_newLeaveFragment"
+            app:destination="@id/newLeaveFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_myLeaveFragment"
+            app:destination="@id/myLeaveFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_govtHolidayFragment"
+            app:destination="@id/govtHolidayFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_myApprovalFragment"
+            app:destination="@id/myApprovalFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/newLeaveFragment"
+        android:name="com.work.onlineleave.view.new_leave.NewLeaveFragment"
+        android:label="New Leave"
+        tools:layout="@layout/fragment_new_leave" />
+    <fragment
+        android:id="@+id/myLeaveFragment"
+        android:name="com.work.onlineleave.view.my_leave.MyLeaveFragment"
+        android:label="My Leave"
+        tools:layout="@layout/fragment_my_leave">
+        <action
+            android:id="@+id/action_myLeaveFragment_to_newLeaveFragment"
+            app:destination="@id/newLeaveFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/govtHolidayFragment"
+        android:name="com.work.onlineleave.view.govt_holiday.GovtHolidayFragment"
+        android:label="Govt. Holiday" />
+    <fragment
+        android:id="@+id/myApprovalFragment"
+        android:name="com.work.onlineleave.view.my_approval.MyApprovalFragment"
+        android:label="My Approval">
+        <action
+            android:id="@+id/action_myApprovalFragment_to_myApproveFragment"
+            app:destination="@id/myApproveFragment" />
+        <action
+            android:id="@+id/action_myApprovalFragment_to_myRefuseFragment"
+            app:destination="@id/myRefuseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myApproveFragment"
+        android:name="com.work.onlineleave.view.my_approval.MyApproveFragment"
+        android:label="Approve"
+        tools:layout="@layout/fragment_my_approve" />
+    <fragment
+        android:id="@+id/myRefuseFragment"
+        android:name="com.work.onlineleave.view.my_approval.MyRefuseFragment"
+        android:label="Refuse" />
+
+
+</navigation>

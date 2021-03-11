@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        tools:text="Your outlet created sucessfully!" />
+
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/serviceType"
+        android:backgroundTint="@color/colorGrey_600"
+        android:layout_width="match_parent"
+        android:popupBackground="@color/colorWhite"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/chessis"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:hint="Chessis"
+        android:textColorHint="@color/colorPrimary"
+        app:boxStrokeColor="@color/colorPrimary"
+        app:errorTextColor="@color/colorText_Red"
+        app:hintTextColor="@color/colorPrimary"
+        app:startIconTint="@color/colorPrimary">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/fontSize18" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/remarks"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:hint="Remarks"
+        android:textColorHint="@color/colorPrimary"
+        app:boxStrokeColor="@color/colorPrimary"
+        app:errorTextColor="@color/colorText_Red"
+        app:hintTextColor="@color/colorPrimary"
+        app:startIconTint="@color/colorPrimary">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/fontSize18" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:text="Customer Feedback:" />
+
+    <com.willy.ratingbar.ScaleRatingBar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/simpleRatingBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srb_numStars="5"
+        app:srb_minimumStars="1"
+        app:srb_rating="0"
+        app:srb_starWidth="30dp"
+        app:srb_starHeight="30dp"
+        app:srb_starPadding="15dp"
+        app:srb_stepSize="1"
+        app:srb_isIndicator="false"
+        app:srb_clickable="true"
+        app:srb_scrollable="true"
+        app:srb_clearRatingEnabled="true"
+        app:srb_drawableEmpty="@drawable/icon_star_empty"
+        app:srb_drawableFilled="@drawable/icon_star_fill"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_20"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDialogCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMessage"
+
+            android:layout_marginRight="@dimen/margin_5"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/btnDialogOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMessage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:layout_weight="1"
+            android:text="Submit"
+            android:textColor="@color/colorWhite" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
